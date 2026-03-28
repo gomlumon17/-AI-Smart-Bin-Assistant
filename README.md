@@ -96,6 +96,40 @@ Test: 301 images
 
 Classes: 4 (plastic, paper, metal, glass)
 
+### 🔧 Image Preprocessing
+
+To improve model performance and OCR accuracy, multiple preprocessing techniques were applied during both training and inference.
+
+📷 For Waste Classification Model
+
+Before feeding images into the deep learning model, the following preprocessing steps were applied:
+
+Resizing
+
+All images were resized to 224 × 224 to match the input size of EfficientNetB0.
+
+Color Conversion
+
+Images were converted from BGR to RGB to align with deep learning model expectations.
+
+Normalization
+
+Pixel values were scaled appropriately based on the model requirements.
+
+Data Augmentation (Training Phase)
+
+To improve generalization and robustness:
+
+Rotation
+
+Zoom
+
+Width & Height Shift
+
+Horizontal Flip
+
+Brightness Adjustment
+
 ### 📈 Training Performance (EfficientNetB0)
 
 Epoch 1 → Accuracy: 73.0% → Val Accuracy: 86.5%
