@@ -83,8 +83,6 @@ The model was trained on a hybrid dataset consisting of:
 
 📱 Custom dataset: Images captured using mobile phones
 
-🏠 Real-world waste: Everyday trash objects collected from surroundings
-
 This combination helped improve real-world performance and robustness.
 
 
